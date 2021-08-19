@@ -28,7 +28,7 @@
 
 - <font size="4"><font color="green">**初出茅廬**</font>
   - [Server、Client 是什麼？](https://morosedog.gitlab.io//private-lineage-20210713-private-lineage-1)
-  - [Java 是什麼？]https://morosedog.gitlab.io/(/private-lineage-20210714-private-lineage-2)
+  - [Java 是什麼？](https://morosedog.gitlab.io/(/private-lineage-20210714-private-lineage-2)
   - [VirtualBox Windows 7 安裝](https://morosedog.gitlab.io//private-lineage-20210715-private-lineage-3)
   - [Java 的安裝](https://morosedog.gitlab.io//private-lineage-20210716-private-lineage-4)
   - [Java 的版本切換](https://morosedog.gitlab.io//private-lineage-20210717-private-lineage-5)
@@ -64,8 +64,10 @@
     - [Eclipse 匯入天堂私服原始碼](https://morosedog.gitlab.io//private-lineage-20210812-private-lineage-31)
     - [Eclipse 原始碼編譯與錯誤排除](https://morosedog.gitlab.io//private-lineage-20210813-private-lineage-32)
     - [Eclipse 編輯程式碼和編譯Jar並執行](https://morosedog.gitlab.io//private-lineage-20210814-private-lineage-33)
+  
 <font size="2"><u><以下文章因需花時間研究加撰寫，預計於9月後將會繼續撰寫></u></font>
 <font size="2"><u><後續文章撰寫將會使用IntelliJ IDEA為主要開發工具></u></font>
+  
   - IntelliJ IDEA：
     - IntelliJ IDEA 安裝
     - IntelliJ IDEA 簡單介紹
