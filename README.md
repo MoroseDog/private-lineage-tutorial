@@ -1,2 +1,91 @@
 # private-lineage-tutorial
 天堂私服架設教學
+
+## 前言
+
+在2019年末月，發生「嚴重特殊傳染性肺炎疫情」，是一次由嚴重急性呼吸道症候群冠狀病毒2型（SARS-CoV-2）導致的嚴重特殊傳染性肺炎（COVID-19）所引發的全球大流行疫情。隨後在2020年初迅速擴散至全球多國，逐漸變成一場全球性大瘟疫。
+
+導致現在多數國家國民們因為防疫，人人在家無法出門，這時候因受疫情影響而火紅的部分就是線上的購物、<font size="4"><font color="red">**遊戲**</font>、會議服務…等等。
+
+之前也有提到，在分析過部落格中的熱門文章後，決定要嘗試一些讓人感興趣的技術文件、教學；
+當然一些技術文章也會持續的撰寫分享用於增進自己的經驗與技術。
+
+這邊就不在廢話，這邊決定要初步嘗試寫關於「天堂私服」的相關技術文章，在開始之前不免俗要…
+
+免責聲明：
+
+- 本部落格文章中皆<font size="4"><font color="red"><u>**不提供**</u></font>任何所謂的遊戲「主程式」、「模擬器」、「登入器」…等等相關程式的下載點。
+- 本部落格文章中所見之遊戲主程式和服務器端程序均來自網路發佈，<font size="4"><font color="red"><u>版本歸**原作者**</u>所有</font>。
+- 本部落格文章為研究SQL資料庫與修改JAVA語法使用，<font size="4"><font color="red">並<u>**非商業用途**</u>，亦<u>**無做營運事實等任何一切商業行為**</u>。</font>
+- 本部落格文章內容是為研究學習設計思想和原理為目的，<font size="4"><font color="red"><u>**絕沒有故意侵權或惡意抄襲、篡改其他遊戲內容**</u></font>！
+
+------------------------------------------------------------------------------------------------------------------------
+
+這邊的教學主要在於讓初出茅廬有興趣的人來看看，透過簡單說明舉例讓其了解，對於詳細深入的部分就不會在這邊提到。
+如果有針對某一些技術或是關鍵字有其興趣，建議可以多使用搜尋引擎針對其關鍵字，找尋相關文章來做深入研究。
+
+## 教學章結
+
+- <font size="4"><font color="green">**初出茅廬**</font>
+  - [Server、Client 是什麼？](https://morosedog.gitlab.io//private-lineage-20210713-private-lineage-1)
+  - [Java 是什麼？]https://morosedog.gitlab.io/(/private-lineage-20210714-private-lineage-2)
+  - [VirtualBox Windows 7 安裝](https://morosedog.gitlab.io//private-lineage-20210715-private-lineage-3)
+  - [Java 的安裝](https://morosedog.gitlab.io//private-lineage-20210716-private-lineage-4)
+  - [Java 的版本切換](https://morosedog.gitlab.io//private-lineage-20210717-private-lineage-5)
+  - [資料庫 Database(DB) 是什麼？](https://morosedog.gitlab.io//private-lineage-20210718-private-lineage-6)
+  - [資料庫 MySQL 5.6.25 的安裝](https://morosedog.gitlab.io//private-lineage-20210719-private-lineage-7)
+  - [資料庫 開發管理系統 的安裝](https://morosedog.gitlab.io//private-lineage-20210720-private-lineage-8)
+  - [匯入模擬器的資料庫](https://morosedog.gitlab.io//private-lineage-20210721-private-lineage-9)
+  - [設定檔說明設定與啟動模擬器](https://morosedog.gitlab.io//private-lineage-20210722-private-lineage-10)
+  - [主程式安裝及登入器設定與登入](https://morosedog.gitlab.io//private-lineage-20210723-private-lineage-11)
+- <font size="4"><font color="#0C81A2">**連線相關**</font>
+  - [IP 位址 (IP Address)](https://morosedog.gitlab.io//private-lineage-20210724-private-lineage-12)
+  - [內部、外部網路](https://morosedog.gitlab.io//private-lineage-20210725-private-lineage-13)
+  - [防火牆輸入輸出規則](https://morosedog.gitlab.io//private-lineage-20210726-private-lineage-14)
+  - [虛擬服務器和通訊埠轉發](https://morosedog.gitlab.io//private-lineage-20210727-private-lineage-15)
+  - [對外設定(撥接上網)](https://morosedog.gitlab.io//private-lineage-20210728-private-lineage-16)
+  - [對外設定(數據機DHCP)](https://morosedog.gitlab.io//private-lineage-20210729-private-lineage-17)
+  - [對外設定(WiFi-DHCP)](https://morosedog.gitlab.io//private-lineage-20210730-private-lineage-18)
+  - <s>[對外設定(數據機 & WiFi-DHCP)](https://morosedog.gitlab.io//private-lineage-20210731-private-lineage-19)</s><font size="1"><此篇暫時沒有教學></font>
+- <font size="4"><font color="#0C81A2">**登入器相關**</font>
+  - [登入器簡介](https://morosedog.gitlab.io//private-lineage-20210801-private-lineage-20)
+  - [登入器功能說明](https://morosedog.gitlab.io//private-lineage-20210802-private-lineage-21)
+  - [登入器設定檔說明](https://morosedog.gitlab.io//private-lineage-20210803-private-lineage-22)
+  - [FTP 伺服器架設(FileZilla)](https://morosedog.gitlab.io//private-lineage-20210804-private-lineage-23)
+  - [登入器自動更新伺服器列表](https://morosedog.gitlab.io//private-lineage-20210805-private-lineage-24)
+  - [登入器自動更新補丁](https://morosedog.gitlab.io//private-lineage-20210806-private-lineage-25)
+- <font size="4"><font color="blue">**進階教學**</font>
+  - [Java/MySQL 學習資源](https://morosedog.gitlab.io//private-lineage-20210807-private-lineage-26)
+  - [IDE 是什麼？](https://morosedog.gitlab.io//private-lineage-20210808-private-lineage-27)
+  - Eclipse：
+    - [Eclipse IDE 安裝](https://morosedog.gitlab.io//private-lineage-20210809-private-lineage-28)
+    - [Eclipse IDE 簡單介紹](https://morosedog.gitlab.io//private-lineage-20210810-private-lineage-29)
+    - [Eclipse IDE 調整字型大小](https://morosedog.gitlab.io//private-lineage-20210811-private-lineage-30)
+    - [Eclipse 匯入天堂私服原始碼](https://morosedog.gitlab.io//private-lineage-20210812-private-lineage-31)
+    - [Eclipse 原始碼編譯與錯誤排除](https://morosedog.gitlab.io//private-lineage-20210813-private-lineage-32)
+    - [Eclipse 編輯程式碼和編譯Jar並執行](https://morosedog.gitlab.io//private-lineage-20210814-private-lineage-33)
+<font size="2"><u><以下文章因需花時間研究加撰寫，預計於9月後將會繼續撰寫></u></font>
+<font size="2"><u><後續文章撰寫將會使用IntelliJ IDEA為主要開發工具></u></font>
+  - IntelliJ IDEA：
+    - IntelliJ IDEA 安裝
+    - IntelliJ IDEA 簡單介紹
+    - IntelliJ IDEA 進階介紹
+    - IntelliJ IDEA 匯入天堂私服原始碼
+    - IntelliJ IDEA 原始碼編譯與錯誤排除
+    - IntelliJ IDEA 編輯程式碼和編譯Jar並執行
+  - ....
+- <font size="4"><font color="red">**核心修改**</font>
+  - L1J版：
+    - ....
+  - YiWei版：
+    - ....
+- <font size="4"><font color="orange">**圖檔修改**</font>
+  - ....
+- <font size="4"><font color="purple">**輔助開發**</font>
+  - ....    
+  
+## 結語
+以上的章節只是我初步的規劃，當然有可能增/刪/改，且章結順序並不一定代表撰寫的順序；
+但我這邊會盡量依照順序去撰寫，畢竟這個順序是學習的一個優先順序。
+
+建議大家針對其順序去做學習研究~~。
