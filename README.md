@@ -71,7 +71,7 @@
     - [07. IntelliJ IDEA 鑲嵌提示 Java 程式碼的使用與繼承](https://morosedog.gitlab.io/private-lineage-20210909-private-lineage-42)
     - [08. IntelliJ IDEA 逐步除錯(Debug)的步驟與演練](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)
     - [09. IntelliJ IDEA 天堂模擬器除錯(Debug)](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)
-    - [10. IntelliJ IDEA 遠端除錯(Remote Debug)Jar包](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-45)
+    - [10. IntelliJ IDEA 遠端除錯(Remote Debug)Jar包](https://morosedog.gitlab.io/private-lineage-20210912-private-lineage-45)
 - <font size="4"><font color="red">**核心修改**</font>
 <font size="2"><在開始閱讀以下文章前，請務必將**<u>進階教學`IntelliJ IDEA`</u>**的[07](https://morosedog.gitlab.io/private-lineage-20210909-private-lineage-42)、[08](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)、[09](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)章節學習完畢></font>
   - L1J版：
