@@ -1,6 +1,3 @@
-# private-lineage-tutorial
-天堂私服架設教學
-
 ## 前言
 
 在2019年末月，發生「嚴重特殊傳染性肺炎疫情」，是一次由嚴重急性呼吸道症候群冠狀病毒2型（SARS-CoV-2）導致的嚴重特殊傳染性肺炎（COVID-19）所引發的全球大流行疫情。隨後在2020年初迅速擴散至全球多國，逐漸變成一場全球性大瘟疫。
@@ -58,27 +55,28 @@
   - [Java/MySQL 學習資源](https://morosedog.gitlab.io/private-lineage-20210807-private-lineage-26)
   - [IDE 是什麼？](https://morosedog.gitlab.io/private-lineage-20210808-private-lineage-27)
   - Eclipse：
-    - [Eclipse IDE 安裝](https://morosedog.gitlab.io/private-lineage-20210809-private-lineage-28)
-    - [Eclipse IDE 簡單介紹](https://morosedog.gitlab.io/private-lineage-20210810-private-lineage-29)
-    - [Eclipse IDE 調整字型大小](https://morosedog.gitlab.io/private-lineage-20210811-private-lineage-30)
-    - [Eclipse 匯入天堂私服原始碼](https://morosedog.gitlab.io/private-lineage-20210812-private-lineage-31)
-    - [Eclipse 原始碼編譯與錯誤排除](https://morosedog.gitlab.io/private-lineage-20210813-private-lineage-32)
-    - [Eclipse 編輯程式碼和編譯Jar並執行](https://morosedog.gitlab.io/private-lineage-20210814-private-lineage-33)
-  
-<font size="2"><u><以下文章因需花時間研究加撰寫，預計於9月後將會繼續撰寫></u></font>
-<font size="2"><u><後續文章撰寫將會使用IntelliJ IDEA為主要開發工具></u></font>
-  
+    - [01. Eclipse IDE 安裝](https://morosedog.gitlab.io/private-lineage-20210809-private-lineage-28)
+    - [02. Eclipse IDE 簡單介紹](https://morosedog.gitlab.io/private-lineage-20210810-private-lineage-29)
+    - [03. Eclipse IDE 調整字型大小](https://morosedog.gitlab.io/private-lineage-20210811-private-lineage-30)
+    - [04. Eclipse 匯入天堂私服原始碼](https://morosedog.gitlab.io/private-lineage-20210812-private-lineage-31)
+    - [05. Eclipse 原始碼編譯與錯誤排除](https://morosedog.gitlab.io/private-lineage-20210813-private-lineage-32)
+    - [06. Eclipse 編輯程式碼和編譯Jar並執行](https://morosedog.gitlab.io/private-lineage-20210814-private-lineage-33)
   - IntelliJ IDEA：
-    - IntelliJ IDEA 安裝
-    - IntelliJ IDEA 簡單介紹
-    - IntelliJ IDEA 進階介紹
-    - IntelliJ IDEA 匯入天堂私服原始碼
-    - IntelliJ IDEA 原始碼編譯與錯誤排除
-    - IntelliJ IDEA 編輯程式碼和編譯Jar並執行
-  - ....
+    - [01. IntelliJ IDEA 安裝](https://morosedog.gitlab.io/private-lineage-20210901-private-lineage-34)
+    - [02. IntelliJ IDEA 簡單介紹](https://morosedog.gitlab.io/private-lineage-20210902-private-lineage-35)
+    - [03. IntelliJ IDEA 進階介紹](https://morosedog.gitlab.io/private-lineage-20210903-private-lineage-36)
+    - [04. IntelliJ IDEA 匯入天堂私服原始碼](https://morosedog.gitlab.io/private-lineage-20210904-private-lineage-37)
+    - [05. IntelliJ IDEA 原始碼編譯與錯誤排除](https://morosedog.gitlab.io/private-lineage-20210905-private-lineage-38)
+    - [06. IntelliJ IDEA 編輯程式碼和編譯Jar並執行](https://morosedog.gitlab.io/private-lineage-20210906-private-lineage-39)
+    - [07. IntelliJ IDEA 鑲嵌提示 Java 程式碼的使用與繼承](https://morosedog.gitlab.io/private-lineage-20210909-private-lineage-42)
+    - [08. IntelliJ IDEA 逐步除錯(Debug)的步驟與演練](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)
+    - [09. IntelliJ IDEA 天堂模擬器除錯(Debug)](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)
+    - [10. IntelliJ IDEA 遠端除錯(Remote Debug)Jar包](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-45)
 - <font size="4"><font color="red">**核心修改**</font>
+<font size="2"><在開始閱讀以下文章前，請務必將**<u>進階教學`IntelliJ IDEA`</u>**的[07](https://morosedog.gitlab.io/private-lineage-20210909-private-lineage-42)、[08](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)、[09](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)章節學習完畢></font>
   - L1J版：
-    - ....
+    - [人物出生道具分析/修改 (一)](https://morosedog.gitlab.io/private-lineage-20210907-private-lineage-40)
+    - [人物出生道具分析/修改 (二)](https://morosedog.gitlab.io/private-lineage-20210908-private-lineage-41)
   - YiWei版：
     - ....
 - <font size="4"><font color="orange">**圖檔修改**</font>
@@ -86,8 +84,16 @@
 - <font size="4"><font color="purple">**輔助開發**</font>
   - ....    
   
+## 分享 
+
+如有需要分享掛載，這邊提供動態圖：
+![](https://morosedog.gitlab.io/images/private-lineage/chapter0/morosedog.gif)
+
+感謝論壇友情分享：
+- [Linhelper論壇](https://bbs.linhelper.com/?fromuid=683)
+
 ## 結語
 以上的章節只是我初步的規劃，當然有可能增/刪/改，且章結順序並不一定代表撰寫的順序；
 但我這邊會盡量依照順序去撰寫，畢竟這個順序是學習的一個優先順序。
 
-建議大家針對其順序去做學習研究~~。
+建議大家針對其順序去做學習研究~~。x
