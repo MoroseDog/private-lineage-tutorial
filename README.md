@@ -1,5 +1,7 @@
 ## 前言
 
+天堂私服架設教學、研究、核心修改、資料庫修改；天堂私服從無到有，手把手教學，簡單易懂輕鬆上手。
+
 在2019年末月，發生「嚴重特殊傳染性肺炎疫情」，是一次由嚴重急性呼吸道症候群冠狀病毒2型（SARS-CoV-2）導致的嚴重特殊傳染性肺炎（COVID-19）所引發的全球大流行疫情。隨後在2020年初迅速擴散至全球多國，逐漸變成一場全球性大瘟疫。
 
 導致現在多數國家國民們因為防疫，人人在家無法出門，這時候因受疫情影響而火紅的部分就是線上的購物、<font size="4"><font color="red">**遊戲**</font>、會議服務…等等。
@@ -72,28 +74,54 @@
     - [08. IntelliJ IDEA 逐步除錯(Debug)的步驟與演練](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)
     - [09. IntelliJ IDEA 天堂模擬器除錯(Debug)](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)
     - [10. IntelliJ IDEA 遠端除錯(Remote Debug)Jar包](https://morosedog.gitlab.io/private-lineage-20210912-private-lineage-45)
-- <font size="4"><font color="red">**核心修改**</font>
-<font size="2"><在開始閱讀以下文章前，請務必將**<u>進階教學`IntelliJ IDEA`</u>**的[07](https://morosedog.gitlab.io/private-lineage-20210909-private-lineage-42)、[08](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)、[09](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)章節學習完畢></font>
-  - L1J版：
+- <font size="4"><font color="red">**核心分析/修改**</font>
+<font size="3"><開始前，請務必具備基礎的`Java`與`SQL`能力和**<u>進階教學`IntelliJ IDEA`</u>**的[07](/private-lineage-20210909-private-lineage-42)、[08](/private-lineage-20210910-private-lineage-43)、[09](/private-lineage-20210911-private-lineage-44)基本除錯能力></font>
+  - 「L1J版」：
+    <font size="2" color="blue"><b><前五篇適合超級新手學習入門，一步一步非常仔細分析教學></b></font>
     - [人物出生道具分析/修改 (一)](https://morosedog.gitlab.io/private-lineage-20210907-private-lineage-40)
     - [人物出生道具分析/修改 (二)](https://morosedog.gitlab.io/private-lineage-20210908-private-lineage-41)
-  - YiWei版：
+    - [遊戲帳號分析/Debug (一)](https://morosedog.gitlab.io/private-lineage-20210913-private-lineage-46)
+    - [遊戲帳號分析/Debug (二)](https://morosedog.gitlab.io/private-lineage-20210914-private-lineage-47)
+    - [遊戲帳號分析/Debug (三)](https://morosedog.gitlab.io/private-lineage-20210915-private-lineage-48)
+    <font size="2" color="green"><b><學習之初：GM指令的分析/修改></b></font>
+    - [GM指令的程式碼邏輯分析](https://morosedog.gitlab.io/private-lineage-20210917-private-lineage-50)
+    - [GM指令分析 (全輔助)](https://morosedog.gitlab.io/private-lineage-20210918-private-lineage-51)
+    - [GM指令/一般指令分析 (Who)](https://morosedog.gitlab.io/private-lineage-20210919-private-lineage-52)
+    - [GM指令分析/修改 (怪物血條)](https://morosedog.gitlab.io/private-lineage-20210920-private-lineage-53)
+    - [GM指令分析/修改 (描述)](https://morosedog.gitlab.io/private-lineage-20210921-private-lineage-54)
+    - [GM指令分析/修改 (金幣)](https://morosedog.gitlab.io/private-lineage-20211015-private-lineage-55)
+    - [GM指令分析 (創立道具)](https://morosedog.gitlab.io/private-lineage-20211016-private-lineage-56)
+    - [GM指令分析 (創立套裝)](https://morosedog.gitlab.io/private-lineage-20211017-private-lineage-57)
+    - [GM指令分析 (贈送)](https://morosedog.gitlab.io/private-lineage-20211018-private-lineage-58)
+    - [GM指令分析 (限等贈送)](https://morosedog.gitlab.io/private-lineage-20211019-private-lineage-59)
+    - [GM指令分析 (移動)](https://morosedog.gitlab.io/private-lineage-20211020-private-lineage-60)
+    - [GM指令分析 (房間)](https://morosedog.gitlab.io/private-lineage-20211021-private-lineage-61)
+    - [GM指令分析 (前往玩家)](https://morosedog.gitlab.io/private-lineage-20211022-private-lineage-62)
+    - [GM指令分析 (召回玩家)](https://morosedog.gitlab.io/private-lineage-20211023-private-lineage-63)
+    - GM指令分析 (前往怪物)
+    - GM指令分析 (召怪)
+    - GM指令分析 (創怪/創NPC)
     - ....
-- <font size="4"><font color="orange">**圖檔修改**</font>
+  - 「YiWei版」：
+    - ....
+- <font size="4"><font color="rosybrown">**工具介紹/使用**</font>
   - ....
-- <font size="4"><font color="purple">**輔助開發**</font>
+- <font size="4"><font color="chocolate">**圖檔分析/修改**</font>
+  - ....
+- <font size="4"><font color="saddlebrown">**輔助開發**</font>
   - ....    
   
 ## 分享 
 
 如有需要分享掛載，這邊提供動態圖：
-![](https://morosedog.gitlab.io/images/private-lineage/chapter0/morosedog.gif)
+![](/images/private-lineage/chapter0/morosedog.gif)
 
-感謝論壇友情分享：
+感謝各大技術論壇友情分享：
 - [Linhelper論壇](https://bbs.linhelper.com/?fromuid=683)
+- [天堂同好會](https://lineagego.tw/forum.php)
 
 ## 結語
 以上的章節只是我初步的規劃，當然有可能增/刪/改，且章結順序並不一定代表撰寫的順序；
 但我這邊會盡量依照順序去撰寫，畢竟這個順序是學習的一個優先順序。
 
-建議大家針對其順序去做學習研究~~。x
+建議大家針對其順序去做學習研究~~。
