@@ -83,7 +83,9 @@
     - [遊戲帳號分析/Debug (一)](https://morosedog.gitlab.io/private-lineage-20210913-private-lineage-46)
     - [遊戲帳號分析/Debug (二)](https://morosedog.gitlab.io/private-lineage-20210914-private-lineage-47)
     - [遊戲帳號分析/Debug (三)](https://morosedog.gitlab.io/private-lineage-20210915-private-lineage-48)
+      
     <font size="2" color="green"><b><學習之初：GM指令的分析/修改></b></font>
+      
     - [GM指令的程式碼邏輯分析](https://morosedog.gitlab.io/private-lineage-20210917-private-lineage-50)
     - [GM指令分析 (全輔助)](https://morosedog.gitlab.io/private-lineage-20210918-private-lineage-51)
     - [GM指令/一般指令分析 (Who)](https://morosedog.gitlab.io/private-lineage-20210919-private-lineage-52)
@@ -114,6 +116,7 @@
 ## 分享 
 
 如有需要分享掛載，這邊提供動態圖：
+
 ![](https://morosedog.gitlab.io/images/private-lineage/chapter0/morosedog.gif)
 
 
