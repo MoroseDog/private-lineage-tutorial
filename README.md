@@ -114,7 +114,8 @@
 ## 分享 
 
 如有需要分享掛載，這邊提供動態圖：
-![](/images/private-lineage/chapter0/morosedog.gif)
+![](https://morosedog.gitlab.io/images/private-lineage/chapter0/morosedog.gif)
+
 
 感謝各大技術論壇友情分享：
 - [Linhelper論壇](https://bbs.linhelper.com/?fromuid=683)
