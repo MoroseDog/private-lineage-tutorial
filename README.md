@@ -123,7 +123,7 @@
 
 感謝各大技術論壇友情分享：
 - [Linhelper論壇](https://bbs.linhelper.com/?fromuid=683)
-- [天堂同好會](https://lineagego.tw/forum.php)
+
 
 ## 結語
 以上的章節只是我初步的規劃，當然有可能增/刪/改，且章結順序並不一定代表撰寫的順序；
