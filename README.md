@@ -1,7 +1,5 @@
 ## 前言
 
-天堂私服架設教學、研究、核心修改、資料庫修改；天堂私服從無到有，手把手教學，簡單易懂輕鬆上手。
-
 在2019年末月，發生「嚴重特殊傳染性肺炎疫情」，是一次由嚴重急性呼吸道症候群冠狀病毒2型（SARS-CoV-2）導致的嚴重特殊傳染性肺炎（COVID-19）所引發的全球大流行疫情。隨後在2020年初迅速擴散至全球多國，逐漸變成一場全球性大瘟疫。
 
 導致現在多數國家國民們因為防疫，人人在家無法出門，這時候因受疫情影響而火紅的部分就是線上的購物、<font size="4"><font color="red">**遊戲**</font>、會議服務…等等。
@@ -74,8 +72,9 @@
     - [08. IntelliJ IDEA 逐步除錯(Debug)的步驟與演練](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)
     - [09. IntelliJ IDEA 天堂模擬器除錯(Debug)](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)
     - [10. IntelliJ IDEA 遠端除錯(Remote Debug)Jar包](https://morosedog.gitlab.io/private-lineage-20210912-private-lineage-45)
+    - [11. IntelliJ IDEA 反編譯 Jar包](https://morosedog.gitlab.io/private-lineage-20210916-private-lineage-49)
 - <font size="4"><font color="red">**核心分析/修改**</font>
-<font size="3"><開始前，請務必具備基礎的`Java`與`SQL`能力和**<u>進階教學`IntelliJ IDEA`</u>**的[07](/private-lineage-20210909-private-lineage-42)、[08](/private-lineage-20210910-private-lineage-43)、[09](/private-lineage-20210911-private-lineage-44)基本除錯能力></font>
+<font size="3"><開始前，請務必具備基礎的`Java`與`SQL`能力和**<u>進階教學`IntelliJ IDEA`</u>**的[07](https://morosedog.gitlab.io/private-lineage-20210909-private-lineage-42)、[08](https://morosedog.gitlab.io/private-lineage-20210910-private-lineage-43)、[09](https://morosedog.gitlab.io/private-lineage-20210911-private-lineage-44)基本除錯能力></font>
   - 「L1J版」：
     <font size="2" color="blue"><b><前五篇適合超級新手學習入門，一步一步非常仔細分析教學></b></font>
     - [人物出生道具分析/修改 (一)](https://morosedog.gitlab.io/private-lineage-20210907-private-lineage-40)
@@ -83,9 +82,7 @@
     - [遊戲帳號分析/Debug (一)](https://morosedog.gitlab.io/private-lineage-20210913-private-lineage-46)
     - [遊戲帳號分析/Debug (二)](https://morosedog.gitlab.io/private-lineage-20210914-private-lineage-47)
     - [遊戲帳號分析/Debug (三)](https://morosedog.gitlab.io/private-lineage-20210915-private-lineage-48)
-      
     <font size="2" color="green"><b><學習之初：GM指令的分析/修改></b></font>
-      
     - [GM指令的程式碼邏輯分析](https://morosedog.gitlab.io/private-lineage-20210917-private-lineage-50)
     - [GM指令分析 (全輔助)](https://morosedog.gitlab.io/private-lineage-20210918-private-lineage-51)
     - [GM指令/一般指令分析 (Who)](https://morosedog.gitlab.io/private-lineage-20210919-private-lineage-52)
@@ -100,30 +97,73 @@
     - [GM指令分析 (房間)](https://morosedog.gitlab.io/private-lineage-20211021-private-lineage-61)
     - [GM指令分析 (前往玩家)](https://morosedog.gitlab.io/private-lineage-20211022-private-lineage-62)
     - [GM指令分析 (召回玩家)](https://morosedog.gitlab.io/private-lineage-20211023-private-lineage-63)
-    - [GM指令分析 (前往怪物)](https://morosedog.gitlab.io//private-lineage-20211024-private-lineage-64)
-    - [GM指令分析 (召喚怪物)](https://morosedog.gitlab.io//private-lineage-20211025-private-lineage-65)
-    - [GM指令分析 (召喚寵物)](https://morosedog.gitlab.io//private-lineage-20211026-private-lineage-66)
-    - [GM指令分析 (創怪/創NPC)](https://morosedog.gitlab.io//private-lineage-20211027-private-lineage-67)
+    - [GM指令分析 (前往怪物)](https://morosedog.gitlab.io/private-lineage-20211024-private-lineage-64)
+    - [GM指令分析 (召喚怪物)](https://morosedog.gitlab.io/private-lineage-20211025-private-lineage-65)
+    - [GM指令分析 (召喚寵物)](https://morosedog.gitlab.io/private-lineage-20211026-private-lineage-66)
+    - [GM指令分析 (創怪/創NPC)](https://morosedog.gitlab.io/private-lineage-20211027-private-lineage-67)
+    <font size="2" color="red"><b><在以下分析前，需具備相關知識與工具了解，請先參閱下方的["補丁介紹/說明"](/categories/天堂私服/6-補丁介紹-說明/)、["工具介紹/使用"](/categories/天堂私服/7-工具介紹-使用/)、"對話檔分析/修改"></b></font>
+    <font size="2" color="red"><b><需花費時間進行<u>研究</u>、<u>分析</u>、<u>文章撰寫</u>、<u>文章編排</u>…原創不易，請持續關注，非常感謝></b></font>
+    - [商店對話檔分析]
+    - [商店購買清單分析]
+    - [商店販售清單分析]
+    - [商店購買行為分析]
+    - [商店販售行為分析]
     - ....
   - 「YiWei版」：
     - ....
-- <font size="4"><font color="rosybrown">**工具介紹/使用**</font>
+- <font size="4"><font color="#EE7700">**補丁介紹/說明**</font>
+  - [客戶端idx、pak說明](https://morosedog.gitlab.io/private-lineage-20220201-private-lineage-68)
+  - [補丁副檔名對應說明](https://morosedog.gitlab.io/private-lineage-20220202-private-lineage-69)
+  - [補丁吃檔資料夾對應](https://morosedog.gitlab.io/private-lineage-20220203-private-lineage-70)
+- <font size="4"><font color="#E63F00">**工具介紹/使用**</font>
+  - [eat (吃檔教學)](https://morosedog.gitlab.io/private-lineage-20220204-private-lineage-71)
+  <font size="2" color="green"><b><瀏覽/抽檔工具></b></font>
+  - [PakViewer 介紹](https://morosedog.gitlab.io/private-lineage-20220205-private-lineage-72)
+  - [Pakext 工具](https://morosedog.gitlab.io/private-lineage-20220206-private-lineage-73)
+  - [PakViewe 工具](https://morosedog.gitlab.io/private-lineage-20220207-private-lineage-74)
+  - [PakViewer Ver.3.0 工具](https://morosedog.gitlab.io/private-lineage-20220208-private-lineage-75)
+  - [PackViewer_beta2 工具](https://morosedog.gitlab.io/private-lineage-20220209-private-lineage-76)
+  - [L1Viewer 工具](https://morosedog.gitlab.io/private-lineage-20220210-private-lineage-77)
+  - [LineageSpr 工具](https://morosedog.gitlab.io/private-lineage-20220211-private-lineage-78)
+  - [Lineage Icon v120119 工具](https://morosedog.gitlab.io/private-lineage-20220212-private-lineage-79)
+  - [MTools 工具](https://morosedog.gitlab.io/private-lineage-20220213-private-lineage-80)
+  <font size="2" color="green"><b><加解密工具></b></font>
+  - [XML加解密 工具](https://morosedog.gitlab.io/private-lineage-20220214-private-lineage-81)
+  - [SPZ、XML加解密 工具](https://morosedog.gitlab.io/private-lineage-20220215-private-lineage-82)
+  - [對話檔加密解密 工具](https://morosedog.gitlab.io/private-lineage-20220216-private-lineage-83)
+  <font size="2" color="green"><b><登入器素材工具></b></font>
+  - [登入器素材抽檔 工具](https://morosedog.gitlab.io/private-lineage-20220217-private-lineage-84)
+  <font size="2" color="green"><b><轉檔工具></b></font>
+  - [TBT編譯器 工具(PNG↔TBT)](https://morosedog.gitlab.io/private-lineage-20220218-private-lineage-85)
+  - [Linskin4.04 工具(IMG↔BMP)](https://morosedog.gitlab.io/private-lineage-20220219-private-lineage-86)
+  - [SPR-BMP互轉 工具(SPR↔BMP)](https://morosedog.gitlab.io/private-lineage-20220220-private-lineage-87)
+  <font size="2" color="green"><b><圖檔工具></b></font>
+  - [SFDviewer 工具(圖檔座標定位)](https://morosedog.gitlab.io/private-lineage-20220221-private-lineage-88)
+  <font size="2" color="green"><b><地圖工具></b></font>
+  - [超簡易地圖預覽 工具]
+  - [Lineage Map V1 工具]
+  - [地圖屬性修改 工具]
+  - [LiTo Map 工具]
+- <font size="4"><font color="#CC0000">**對話檔分析/修改**</font>
+  <font size="2" color="red"><b><需花費時間進行<u>研究</u>、<u>分析</u>、<u>文章撰寫</u>、<u>文章編排</u>…原創不易，請持續關注，非常感謝></b></font>
+  - [NPC對應對話檔分析]
+  - [文字對話檔]
+  - [圖片對話檔]
+  - [點擊跳轉其他對話檔]
+  - [點擊執行伺服器行動]
   - ....
-- <font size="4"><font color="chocolate">**圖檔分析/修改**</font>
+- <font size="4"><font color="#C10066">**圖檔分析/修改**</font>
   - ....
-- <font size="4"><font color="saddlebrown">**輔助開發**</font>
-  - ....    
+- <font size="4"><font color="#000000">**輔助開發**</font>
+  - ....
   
 ## 分享 
 
 如有需要分享掛載，這邊提供動態圖：
-
 ![](https://morosedog.gitlab.io/images/private-lineage/chapter0/morosedog.gif)
-
 
 感謝各大技術論壇友情分享：
 - [Linhelper論壇](https://bbs.linhelper.com/?fromuid=683)
-
 
 ## 結語
 以上的章節只是我初步的規劃，當然有可能增/刪/改，且章結順序並不一定代表撰寫的順序；
