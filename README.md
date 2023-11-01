@@ -101,16 +101,6 @@
     - [GM指令分析 (召喚怪物)](https://morosedog.gitlab.io/private-lineage-20211025-private-lineage-65)
     - [GM指令分析 (召喚寵物)](https://morosedog.gitlab.io/private-lineage-20211026-private-lineage-66)
     - [GM指令分析 (創怪/創NPC)](https://morosedog.gitlab.io/private-lineage-20211027-private-lineage-67)
-    </br><font size="2" color="red"><b><在以下分析前，需具備相關知識與工具了解，請先參閱下方的["補丁介紹/說明"](/categories/天堂私服/6-補丁介紹-說明/)、["工具介紹/使用"](/categories/天堂私服/7-工具介紹-使用/)、"對話檔分析/修改"></b></font>
-    </br><font size="2" color="red"><b><需花費時間進行<u>研究</u>、<u>分析</u>、<u>文章撰寫</u>、<u>文章編排</u>…原創不易，請持續關注，非常感謝></b></font>
-    - [商店對話檔分析]
-    - [商店購買清單分析]
-    - [商店販售清單分析]
-    - [商店購買行為分析]
-    - [商店販售行為分析]
-    - ....
-  - 「YiWei版」：
-    - ....
 - <font size="4"><font color="#EE7700">**補丁介紹/說明**</font>
   - [客戶端idx、pak說明](https://morosedog.gitlab.io/private-lineage-20220201-private-lineage-68)
   - [補丁副檔名對應說明](https://morosedog.gitlab.io/private-lineage-20220202-private-lineage-69)
@@ -139,24 +129,66 @@
   - [SPR-BMP互轉 工具(SPR↔BMP)](https://morosedog.gitlab.io/private-lineage-20220220-private-lineage-87)
   </br><font size="2" color="green"><b><圖檔工具></b></font>
   - [SFDviewer 工具(圖檔座標定位)](https://morosedog.gitlab.io/private-lineage-20220221-private-lineage-88)
-  </br><font size="2" color="green"><b><地圖工具></b></font>
-  - [超簡易地圖預覽 工具]
-  - [Lineage Map V1 工具]
-  - [地圖屬性修改 工具]
-  - [LiTo Map 工具]
+  - [ViX 工具(圖檔轉位元)](https://morosedog.gitlab.io/private-lineage-20220501-private-lineage-96)
+  <font size="2" color="green"><b><地圖工具></b></font>
+  - [超簡易地圖預覽 工具](https://morosedog.gitlab.io/private-lineage-20220222-private-lineage-89)
+  - [Lineage Map V1 工具](https://morosedog.gitlab.io/private-lineage-20220223-private-lineage-90)
+  - [地圖屬性修改 工具](https://morosedog.gitlab.io/private-lineage-20220224-private-lineage-91)
+  - [LiTo Map 工具](https://morosedog.gitlab.io/private-lineage-20220225-private-lineage-92)
+  <font size="2" color="green"><b><檔名工具></b></font>
+  - [Flexible Renamer 工具(批量修改檔名)](/private-lineage-20220502-private-lineage-97)
 - <font size="4"><font color="#CC0000">**對話檔分析/修改**</font>
-  <font size="2" color="red"><b><需花費時間進行<u>研究</u>、<u>分析</u>、<u>文章撰寫</u>、<u>文章編排</u>…原創不易，請持續關注，非常感謝></b></font>
-  - [NPC對應對話檔分析]
-  - [文字對話檔]
-  - [圖片對話檔]
-  - [點擊跳轉其他對話檔]
-  - [點擊執行伺服器行動]
-  - ....
-- <font size="4"><font color="#C10066">**圖檔分析/修改**</font>
-  - ....
-- <font size="4"><font color="#000000">**輔助開發**</font>
-  - ....
-  
+  - [NPC對應對話檔分析](https://morosedog.gitlab.io/private-lineage-20220226-private-lineage-93)
+  - [文字對話檔分析](https://morosedog.gitlab.io/private-lineage-20220227-private-lineage-94)
+  - [圖片對話檔分析](https://morosedog.gitlab.io/private-lineage-20220228-private-lineage-95)
+  - [跳轉其他對話檔分析<Link篇>](https://morosedog.gitlab.io/private-lineage-20220503-private-lineage-98)
+  - [跳轉其他對話檔分析<Action篇>](https://morosedog.gitlab.io/private-lineage-20220504-private-lineage-99)
+  - [執行行動分析<強化魔法師篇>](https://morosedog.gitlab.io/private-lineage-20220505-private-lineage-100)
+  - [執行行動分析<傳送師篇>](https://morosedog.gitlab.io/private-lineage-20220506-private-lineage-101)
+  - [執行行動分析<道具篇>](https://morosedog.gitlab.io/private-lineage-20220507-private-lineage-102)
+- <font size="4"><font color="#C10066">**變檔分析/修改**</font>
+  - [變身檔新增修改<快速入門>](https://morosedog.gitlab.io/private-lineage-20220508-private-lineage-103)
+  <font size="2" color="green"><b><初階教學與知識></b></font>
+  - [GM指令使用 (影像動畫)](https://morosedog.gitlab.io/private-lineage-20220509-private-lineage-104)
+  - [GM指令使用 (人物變身)](https://morosedog.gitlab.io/private-lineage-20220510-private-lineage-105)
+  - [客戶端和登入器與變身檔關係分析](https://morosedog.gitlab.io/private-lineage-20220511-private-lineage-106)
+  - [變身檔與 gfxid、polyid 分析](https://morosedog.gitlab.io/private-lineage-20220512-private-lineage-107)
+  - [資料庫中 gfxid、polyid 分析](https://morosedog.gitlab.io/private-lineage-20220513-private-lineage-108)
+  - [登入器的 spr_action 產生](https://morosedog.gitlab.io/private-lineage-20220514-private-lineage-109)
+  - [資料庫中 spr_action 分析](https://morosedog.gitlab.io/private-lineage-20220515-private-lineage-110)
+  - [動畫圖檔 spr 基礎了解說明](https://morosedog.gitlab.io/private-lineage-20220516-private-lineage-111)
+  <font size="2" color="orange"><b><進階教學與知識></b></font>
+  - [變身檔-初步說明與規則](https://morosedog.gitlab.io/private-lineage-20220517-private-lineage-112)
+  - [變身檔-格式與編碼基礎](https://morosedog.gitlab.io/private-lineage-20220518-private-lineage-113)
+  - [變身檔-物件分辨的教學](https://morosedog.gitlab.io/private-lineage-20220519-private-lineage-114)
+  - [變身檔-濾鏡效果的教學](https://morosedog.gitlab.io/private-lineage-20220520-private-lineage-115)
+  - [變身檔-附加物件的教學](https://morosedog.gitlab.io/private-lineage-20220521-private-lineage-116)
+  - [變身檔-武器指令的教學](https://morosedog.gitlab.io/private-lineage-20220522-private-lineage-117)
+  - [變身檔-魔法效果的教學](https://morosedog.gitlab.io/private-lineage-20220523-private-lineage-118)
+  - [變身檔-加速指令的教學](https://morosedog.gitlab.io/private-lineage-20220524-private-lineage-119)
+  - [變身檔-走路分析與修改](https://morosedog.gitlab.io/private-lineage-20220525-private-lineage-120)
+  - [變身檔-攻擊分析與修改](https://morosedog.gitlab.io/private-lineage-20220526-private-lineage-121)
+  - [變身檔-施法分析與修改](https://morosedog.gitlab.io/private-lineage-20220527-private-lineage-122)
+  - [變身檔-僵直分析與修改](https://morosedog.gitlab.io/private-lineage-20220528-private-lineage-123)
+  - [變身檔-撿取分析與修改](https://morosedog.gitlab.io/private-lineage-20220529-private-lineage-124)
+  - [變身檔-指向指令分析與修改](https://morosedog.gitlab.io/private-lineage-20220530-private-lineage-125)
+- <font size="4"><font color="#F06E52">**XML分析/教學**</font>
+  - [XML 基礎教學](https://morosedog.gitlab.io/xml-20221101-XML-0/#%E6%95%99%E5%AD%B8%E7%AB%A0%E7%B5%90)
+  - 🔒[JAXB 基礎](https://morosedog.gitlab.io/private-lineage-20230117-private-lineage-126)
+  - 🔒[Java DOM 基礎](https://morosedog.gitlab.io/private-lineage-20230205-private-lineage-129)
+  - <font size="4" color="orange"><b><Server端></b></font>
+    - 「L1J版」：
+      - 🔒[XML 檔案清單說明](https://morosedog.gitlab.io/private-lineage-20230118-private-lineage-127)
+      - 🔒[BOSS 重生設定分析 (BossCycle)](https://morosedog.gitlab.io/private-lineage-20230127-private-lineage-128)
+      - 🔒<s>[GM 指令設定分析 (GMCommands)]</s>
+      - 🔒<s>[寶盒設定分析 (TreasureBox)]</s>
+      - 🔒<s>[物品製作設定分析 (ItemMaking)]</s>
+      - 🔒<s>[單品製作設定分析 (SingleItemMaking)]</s>
+      - 🔒<s>[任務設定分析 (Quest)]</s>
+      - 🔒<s>[傳送師設定分析 (Teleporter)]</s>
+  - <font size="4" color="blue"><b><Client端></b></font>
+    - <s>[coming soon]</s>
+
 ## 分享 
 
 如有需要分享掛載，這邊提供動態圖：
@@ -166,7 +198,10 @@
 - [Linhelper論壇](https://bbs.linhelper.com/?fromuid=683)
 
 ## 結語
-以上的章節只是我初步的規劃，當然有可能增/刪/改，且章結順序並不一定代表撰寫的順序；
-但我這邊會盡量依照順序去撰寫，畢竟這個順序是學習的一個優先順序。
 
-建議大家針對其順序去做學習研究~~。
+- 2022-05-31：**<u>發現文章被惡意複製盜連，且未用任何形式的轉載註明出處</u>**。<font color="red"><**已與`Google`申請版權內容撤除要求**></font>
+- 2022-06-01：**<font color="blue">將保持<u>既有的文章</u>「直接閱讀」</font>**。
+- 2022-06-03：**<font color="blue"><u>新研究技術文章</u>會「<s>繼續分享</s>」</font>**，<font color="red"><s>Why? 要讓更多人學習<u>避免購買版本</s></u></font>。
+- 2023-01-17：**<font color="blue">不定時不定期，緩慢更新文章</font>**，較為深入的分析與技術將會對其文章做加密，**<font color="red">避免</font>**再次被**<font color="red">「惡意複製盜連」</font>**。
+- 2023-01-18：**<font color="red">如何取得🔑文章密碼？</font>**<font color="#FFFFF">僅自行閱讀…</font>
+- 2023-05-29：發現**<font color="red">持續惡意複製盜連文章</font>**，將不會依任何免費形式繼續分享天堂私服教學。
