@@ -130,12 +130,12 @@
   </br><font size="2" color="green"><b><圖檔工具></b></font>
   - [SFDviewer 工具(圖檔座標定位)](https://morosedog.gitlab.io/private-lineage-20220221-private-lineage-88)
   - [ViX 工具(圖檔轉位元)](https://morosedog.gitlab.io/private-lineage-20220501-private-lineage-96)
-  <font size="2" color="green"><b><地圖工具></b></font>
+  </br><font size="2" color="green"><b><地圖工具></b></font>
   - [超簡易地圖預覽 工具](https://morosedog.gitlab.io/private-lineage-20220222-private-lineage-89)
   - [Lineage Map V1 工具](https://morosedog.gitlab.io/private-lineage-20220223-private-lineage-90)
   - [地圖屬性修改 工具](https://morosedog.gitlab.io/private-lineage-20220224-private-lineage-91)
   - [LiTo Map 工具](https://morosedog.gitlab.io/private-lineage-20220225-private-lineage-92)
-  <font size="2" color="green"><b><檔名工具></b></font>
+  </br><font size="2" color="green"><b><檔名工具></b></font>
   - [Flexible Renamer 工具(批量修改檔名)](/private-lineage-20220502-private-lineage-97)
 - <font size="4"><font color="#CC0000">**對話檔分析/修改**</font>
   - [NPC對應對話檔分析](https://morosedog.gitlab.io/private-lineage-20220226-private-lineage-93)
@@ -148,7 +148,7 @@
   - [執行行動分析<道具篇>](https://morosedog.gitlab.io/private-lineage-20220507-private-lineage-102)
 - <font size="4"><font color="#C10066">**變檔分析/修改**</font>
   - [變身檔新增修改<快速入門>](https://morosedog.gitlab.io/private-lineage-20220508-private-lineage-103)
-  <font size="2" color="green"><b><初階教學與知識></b></font>
+  </br><font size="2" color="green"><b><初階教學與知識></b></font>
   - [GM指令使用 (影像動畫)](https://morosedog.gitlab.io/private-lineage-20220509-private-lineage-104)
   - [GM指令使用 (人物變身)](https://morosedog.gitlab.io/private-lineage-20220510-private-lineage-105)
   - [客戶端和登入器與變身檔關係分析](https://morosedog.gitlab.io/private-lineage-20220511-private-lineage-106)
@@ -157,7 +157,7 @@
   - [登入器的 spr_action 產生](https://morosedog.gitlab.io/private-lineage-20220514-private-lineage-109)
   - [資料庫中 spr_action 分析](https://morosedog.gitlab.io/private-lineage-20220515-private-lineage-110)
   - [動畫圖檔 spr 基礎了解說明](https://morosedog.gitlab.io/private-lineage-20220516-private-lineage-111)
-  <font size="2" color="orange"><b><進階教學與知識></b></font>
+  </br><font size="2" color="orange"><b><進階教學與知識></b></font>
   - [變身檔-初步說明與規則](https://morosedog.gitlab.io/private-lineage-20220517-private-lineage-112)
   - [變身檔-格式與編碼基礎](https://morosedog.gitlab.io/private-lineage-20220518-private-lineage-113)
   - [變身檔-物件分辨的教學](https://morosedog.gitlab.io/private-lineage-20220519-private-lineage-114)
